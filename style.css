@@ -210,6 +210,8 @@ nav .nav-list {
 .notes .notes-container {
   background-color: rgb(248, 249, 249);
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 .notes .notes-container .notes-heading {
   width: 85%;
@@ -295,6 +297,155 @@ nav .nav-list {
 
 .note-box .note-card p {
   width: 274px;
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* second-brain-section */
+
+.second-brain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 120px;
+  position: relative;
+  z-index: 2;
+  margin-top: -165px;
+  background-color: #ffffff;
+}
+
+.second-brain-container {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+
+.second-brain-container .brain-img {
+  width: 600px;
+  /* height: 600px; */
+  border-radius: 12px;
+}
+
+.brain-container .solution {
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.brain-heading {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+
+.brain-sub-heading {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.design-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.brain-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.brain-text {
+  color: rgba(0, 25, 49, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* early access section */
+
+.early-access .access {
+  width: 85%;
+  border-radius: 12px;
+  background: rgba(247, 246, 242, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 80px 40px;
+  margin: 0 auto;
+}
+
+.early-access .access h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.access-sub-heading {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.access-sub-heading span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.access-btn {
+  width: 194px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(70, 145, 101, 1);
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+.access-btn img {
+  width: 20px;
+  height: 20px;
+}
+.access-btn p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.finish-line {
   color: rgba(98, 115, 130, 1);
   font-size: 16px;
   font-weight: 400;
