@@ -196,7 +196,7 @@ nav .nav-list {
   white-space: nowrap;
   margin: 0;
   display: inline-flex;
-  align-items:center;
+  align-items: center;
 }
 
 .see-btn i {
@@ -204,4 +204,100 @@ nav .nav-list {
   display: flex;
   align-items: center;
   font-size: 16px;
+}
+
+/* note section */
+.notes .notes-container {
+  background-color: rgb(248, 249, 249);
+  margin: 0 auto;
+}
+.notes .notes-container .notes-heading {
+  width: 85%;
+  /* height: 116px; */
+  text-align: center;
+  padding-bottom: 44px;
+  text-align: center;
+  margin: auto;
+}
+.notes .notes-container .notes-heading h2 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.notes .notes-container .notes-heading p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.notes .note-box {
+  width: 85%;
+  /* height: 300px; */
+  padding: 0 120px 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.note-box .note-card {
+  width: 322px;
+  height: 300px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 16;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.note-box .note-card .card-img {
+  width: 60px;
+  height: 60px;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.note-box .note-card .card-img .img-icon {
+  width: 32px;
+  height: 32px;
+  padding: 1.5px 2.5px;
+  margin: 14px 13px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.note-box .note-card h3 {
+  width: 274px;
+  /* height: 29px; */
+  color: rgba(0, 25, 49, 1);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.note-box .note-card p {
+  width: 274px;
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
 }
